@@ -13,6 +13,10 @@ import androidx.lifecycle.LiveData;
 import com.example.hw04_gymlog_v300.database.GymLogRepository;
 import com.example.hw04_gymlog_v300.database.entities.User;
 import com.example.hw04_gymlog_v300.databinding.ActivityLoginBinding;
+/*
+    Author: Veronica Cortez
+    Abstract:
+ */
 
 
 public class LoginActivity extends AppCompatActivity {

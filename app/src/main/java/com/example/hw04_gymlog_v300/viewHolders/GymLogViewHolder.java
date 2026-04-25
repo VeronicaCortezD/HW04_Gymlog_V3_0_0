@@ -8,6 +8,10 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.hw04_gymlog_v300.R;
+/*
+    Author: Veronica Cortez
+    Abstract:
+ */
 
 public class GymLogViewHolder extends RecyclerView.ViewHolder {
     private final TextView gymLogViewItem;

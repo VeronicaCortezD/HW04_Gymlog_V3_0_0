@@ -14,6 +14,13 @@ import java.util.List;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
+/*
+    Author: Veronica Cortez
+    Abstract: It gets data from GymLogDAO and UserDAO and gives
+              it to the rest of the app. It handles inserting
+              gym logs and suers, getting user information, and
+              returning gym logs for a specific user.
+ */
 
 public class GymLogRepository {
     private final GymLogDAO gymLogDAO;

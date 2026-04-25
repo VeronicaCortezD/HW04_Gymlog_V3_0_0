@@ -7,7 +7,10 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.ListAdapter;
 
 import com.example.hw04_gymlog_v300.database.entities.GymLog;
-
+/*
+    Author: Veronica Cortez
+    Abstract:
+ */
 
 public class GymLogAdapter extends ListAdapter<GymLog, GymLogViewHolder> {
     public GymLogAdapter(@NonNull DiffUtil.ItemCallback<GymLog> diffCallback){

@@ -37,7 +37,13 @@ import java.util.List;
 import java.util.Locale;
 
 /*
-
+    Author: Veronica Cortez
+    Abstract: MainActivity is the main screen of the app where users
+              can add and view their gym logs. It handles user input
+              like exercise, weight, and reps, and displays the logs
+              using a RecyclerView. It also manages login state and
+              allows users to log out. This class connects to UI with
+              the ViewModel and updates the screen when data changes.
  */
 
 public class MainActivity extends AppCompatActivity {

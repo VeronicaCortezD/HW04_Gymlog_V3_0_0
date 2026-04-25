@@ -9,6 +9,10 @@ import com.example.hw04_gymlog_v300.database.GymLogRepository;
 import com.example.hw04_gymlog_v300.database.entities.GymLog;
 
 import java.util.List;
+/*
+    Author: Veronica Cortez
+    Abstract:
+ */
 
 public class GymLogViewModel extends AndroidViewModel {
     private final GymLogRepository repository;

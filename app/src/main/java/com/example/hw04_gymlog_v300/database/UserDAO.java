@@ -10,6 +10,10 @@ import androidx.room.Query;
 import com.example.hw04_gymlog_v300.database.entities.User;
 
 import java.util.List;
+/*
+    Author: Veronica Cortez
+    Abstract:
+ */
 
 @Dao
 public interface UserDAO {

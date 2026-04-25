@@ -18,7 +18,14 @@ import com.example.hw04_gymlog_v300.database.typeConverters.LocalDateTypeConvert
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
+/*
+    Author: Veronica Cortez
+    Abstract: It stores both gym log data and user data,
+              and connects the app to the DAO classes. It uses a
+              singleton pattern so only one database instance is
+              created, and it also adds default users when the
+              database is first created.
+ */
 @TypeConverters(LocalDateTypeConverter.class)
 @Database(entities = {GymLog.class, User.class}, version = 1, exportSchema = false)
 public abstract class GymLogDatabase extends RoomDatabase {

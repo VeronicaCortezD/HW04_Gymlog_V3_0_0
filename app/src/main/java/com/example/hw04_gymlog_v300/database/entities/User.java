@@ -7,6 +7,11 @@ import com.example.hw04_gymlog_v300.database.GymLogDatabase;
 
 import java.util.Objects;
 
+/*
+    Author: Veronica Cortez
+    Abstract:
+ */
+
 @Entity(tableName = GymLogDatabase.USER_TABLE)
 public class User {
     @PrimaryKey(autoGenerate = true)

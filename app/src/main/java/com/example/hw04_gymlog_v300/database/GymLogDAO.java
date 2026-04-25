@@ -9,7 +9,12 @@ import androidx.room.Query;
 import com.example.hw04_gymlog_v300.database.entities.GymLog;
 
 import java.util.List;
-
+/*
+    Author: Veronica Cortez
+    GymLogDAO handles all database operations for gym logs.
+    It includes methods to insert new logs and retrieve logs
+    from the database, especially by user ID.
+ */
 @Dao
 public interface GymLogDAO {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
