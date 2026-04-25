@@ -18,19 +18,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/repInputEditText" />
+        app:layout_constraintTop_toBottomOf="@id/repInputEditText"
+        android:background="@android:color/holo_blue_dark" />
 
-    <TextView
-        android:id="@+id/logDisplayTextView"
-        android:layout_width="383dp"
-        android:layout_height="221dp"
-        android:layout_marginTop="16dp"
-        android:padding="8dp"
-        android:text="Hello World!"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/logDisplayRecyclerView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:padding="2dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/gymlog_recycler_item" />
+
 
     <TextView
         android:id="@+id/exerciseLabelTextView"
@@ -41,7 +42,9 @@
         android:text="@string/exercise"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logDisplayTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/logDisplayRecyclerView"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"/>
 
     <TextView
         android:id="@+id/weightLabelTextView"
@@ -52,7 +55,9 @@
         android:text="@string/Weight"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/exerciseLabelTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/exerciseLabelTextView"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark" />
 
     <TextView
         android:id="@+id/repLabelTextView"
@@ -63,7 +68,9 @@
         android:text="@string/reps"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/weightLabelTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/weightLabelTextView"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_blue_dark"/>
 
     <EditText
         android:id="@+id/exerciseInputEditText"
